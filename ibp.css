@@ -35,7 +35,7 @@ nav menu ul {
 
 nav menu ul li {
     display: inline;
-    padding: 30px;
+    padding: 10px;
 }
 
 nav menu ul li a {
@@ -54,13 +54,44 @@ h3{
     font-family: 'Times New Roman', Times, serif;
     font-size: 13pt;
     color: navy;
+    margin-bottom:0;
 }
 
 /*Configurações do Main*/
 main {
-    padding: ;
+    padding: 20px;
     border-radius: 5px;
     background-color: gainsboro;
+}
+main#culto{
+    height: 350px;
+    margin: auto;
+    width: 100%;
+}
+main ul#cultos{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+    padding-left: 0;
+    list-style: none;
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid navy;
+    border-radius: 5px;
+    padding: 5px;
+}
+main ul li.dia{
+    color: navy;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 0px;
+}
+main ul li.hora{
+    text-align: center;
+    list-style: none;
+    line-height: 25px;
+}
+main ul.horario{
+    padding: 0;
 }
 main p.sobre{
     text-align: justify;
@@ -80,9 +111,24 @@ main img#templo{
     width: 450px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.352);
 }
+main div#icones img.icon{
+    width: 20px;
+    text-align: left;
+}
+div#icones a{
+    line-height: 35px;
+    color:navy;
+    text-decoration: none;
+}
+div#icones a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 
 /*Configuraçoes do Footer*/
 footer {
+    margin-top: 5px;
     border-radius: 5px;
     padding: 5px;
     background-color: gainsboro;
