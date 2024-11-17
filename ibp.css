@@ -66,13 +66,13 @@ main {
 main#culto{
     height: 350px;
     margin: auto;
-    width: 100%;
+    width: 90%;
 }
 main ul#cultos{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
     padding-left: 0;
     list-style: none;
-    width: 500px;
+    width: 90%;
     text-align: center;
     margin: 10px auto;
     border: 1px solid navy;
@@ -96,7 +96,7 @@ main ul.horario{
 main p.sobre{
     text-align: justify;
     padding: 0px 20px;
-    width: 600px;
+    width: 90%;
     margin: auto;
     text-indent: 30px;
     line-height: 20px;
@@ -110,6 +110,12 @@ main h1{
 main img#templo{
     width: 450px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.352);
+}
+@media (max-width:540px){
+    main img#templo{
+        width: 90%;
+        transition: 0.7s ease;
+    }
 }
 main div#icones img.icon{
     width: 20px;
